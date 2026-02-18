@@ -35,12 +35,12 @@ form#filterContent{
     font-size: 1.3em;
 }
 article.opinion{
-    border: 1px solid red;
+    border: 1px palevioletred;
 }
 article.recipe{
-    border: 1px solid lightskyblue;
+    border: 1px palevioletred;
 article.update{
-    border: 1px solid lightseagreen;
+    border: 1px palevioletred;
 }
 .marker
 {
@@ -54,15 +54,15 @@ article.update{
 }
 .opinion .marker
 {
-    background-color: red;
+    background-color: mistyrose;
 }
 .recipe .marker
 {
-    background-color: lightskyblue;
+    background-color: mistyrose;
 }
 .update .marker
 {
-    background-color: lightseagreen;
+    background-color: mistyrose;
 }
 body{
     padding: 0;
@@ -78,14 +78,14 @@ main h1
     font-size: clamp(12px, 4vw, 24px);
 }
 header{
-    background-color: goldenrod;
+    background-color: mistyrose;
     text-align: center;
     position: sticky;
     top: 0px;
     font-size: 2.5vw;
     width: 100%;
     margin: 0;
-    border: 1px solid black;
+    border: 1px palevioletred;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 main > div#articleList
@@ -109,12 +109,12 @@ footer
     padding-top: 5vh;
     font-size: 2vw;
     padding-bottom: 10vh;
-    color: white;
-    background-color: black;
+    color: seashell;
+    background-color: mistyrose;
 }
 a:visited
 {
-    color: darkblue;
+    color: seashell;
 }
 footer p{
     text-align: center;
@@ -137,12 +137,12 @@ nav{
     margin: 0;
     padding: 0;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: mistyrose;
 }
 nav button
 {
-    color:white;
-    background-color: blue;
+    color:seashell;
+    background-color: mistyrose;
     text-decoration: none;
     font-size: 1.5vw;
     display: inline;
@@ -151,10 +151,10 @@ nav button
     text-wrap-mode: nowrap;
 }
 nav button:hover{
-    background-color:darkgoldenrod;
+    background-color: mistyrose;
 }
 nav button:active{
-    background-color: gold;
+    background-color: mistyrose;
 }
 @media screen and (max-width: 600px) {
     article{
